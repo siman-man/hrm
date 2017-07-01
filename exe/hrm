@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require "hrm"
+
+filepath = ARGV.first.chomp
+
+HRM::Machine.run(filepath)

@@ -1,0 +1,19 @@
+inbox
+copyto 0
+inbox
+copyto 1
+inbox
+copyto 2
+inbox
+copyto 3
+inbox
+copyto 4
+inbox
+copyto 5
+# setup end
+copyfrom 4
+outbox
+copyfrom 0
+outbox
+copyfrom 3
+outbox

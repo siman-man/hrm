@@ -1,0 +1,14 @@
+inbox
+copyto 14
+# setup end
+bumpdown 14
+jump_if_neg 8
+copyfrom [14]
+outbox
+jump 3
+bumpup 14
+inbox
+jump_if_zero 3
+copyto [14]
+bumpup 14
+jump 9

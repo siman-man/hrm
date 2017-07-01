@@ -1,0 +1,4 @@
+inbox
+jump_if_zero 1
+outbox
+jump 1
