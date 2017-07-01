@@ -1,0 +1,10 @@
+inbox
+copyto 0
+jump_if_neg 8
+outbox
+bumpdown 0
+jump_if_neg 1
+jump 4
+outbox
+bumpup 0
+jump 2
